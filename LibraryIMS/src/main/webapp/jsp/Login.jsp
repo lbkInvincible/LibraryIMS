@@ -6,44 +6,65 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
 <html>
+
 <head>
-    <title>登陆</title>
-    <link rel="stylesheet" type="text/css" href="../static/css/maincss.css">
+    <title>登入界面</title>
+    <link rel="stylesheet" href=" css/index.css">
 </head>
+
 <body>
-<div class="container">
-    <div class="header">
-<div class="header_link">
-    <a href="">基本版</a>
-    &nbsp;|&nbsp;
-    <a href="">English</a>
-    &nbsp;|&nbsp;
-</div>
-</div>
-    <div class="content">
-        <div class="content_wrapper">
-            <div class="xm_login_container login_container" id="login" style="width: 330px;
-                    height:336px; visibility: visible;">
-                <div class="xm_login_card">
-                    <div class="xm_login_card_tab">
-                        <div class="xm_login_card_tab_item" id="adiminLoginTab">管理员登录</div>
-                        <div class="xm_login_card_tab_item" id="userLoginTab">用户登录</div>
-                    </div>
+    <div class="main-contaiener">
+        <!-- 页面头部 -->
+        <div class="head-container">
 
-                </div>
-                <div class="xm_login_card_cnt" >
-                    <div class="xm_login_card_admin" id="adminLoginCard">
-<%--                        <iframe id="login_admin_iframe" class="login_loginBox_admin_iframe"--%>
-<%--                                height="100%" width="100%" frameborder="no" scrolling="no"--%>
-<%--                                src="test.jsp"></iframe>--%>
+            <div class="container">
+                <div class="logo">图书馆管理系统</div>
+                <li><a href="javascript:;">|  企业邮箱</a></li>
+                <li><a href="javascript:;">| 手机版</a></li>
+                <li><a href="javascript:;">| English</a></li>
+                <li><a href="javascript:;">基本版</a></li>
 
-                    </div>
+            </div>
+
+
+
+        </div>
+        <!-- 登录框 -->
+        <div class="login">
+            <div class="login-head">
+                <span>用户登入</span>
+            </div>
+            <!--账户密码框  -->
+            <form>
+                <div class="number">
+                    <input type="text" placeholder="支持QQ号/邮箱/手机登陆" class="account">
                 </div>
+                <div class="pawssword">
+                    <input type="password" placeholder="请输入密码" class="account">
+                    <li class="agree"><input type="checkbox"> 下次自动登入</li>
+                </div>
+
+            </form>
+
+            <!-- 登陆按钮 -->
+            <div class="login-btn">
+                <input type="submit" value="授权登录">
             </div>
         </div>
 
+        <!-- 左侧文字框 -->
+        <div class="words-container">
+            <li>
+                知识改变命运 <br>
+                <span>To change the fate of knowledge,knowledge of life.</span>
+            </li>
+
+        </div>
+
     </div>
-</div>
+
 </body>
+
 </html>
