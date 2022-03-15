@@ -14,8 +14,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>主页面</title>
-    <link rel="stylesheet" href="./static/css/main.css">
-    <link rel="stylesheet" href="./static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/css/main.css">
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
 
 </head>
 
@@ -33,8 +33,8 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="#">
-                <div class="logo"><img src="./img/logo.png" alt=""></div>
-                <img src="./img/logo_wz.png" alt="" class="school-name">
+                <div class="logo"><img src="../static/img/logo.png" alt=""></div>
+                <img src="../static/img/logo_wz.png" alt="" class="school-name">
             </a>
             <form class="form-inline">
                 <div class="form-group">
